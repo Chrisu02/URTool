@@ -1,22 +1,29 @@
-# ![logo](https://i.imgur.com/WiE0i5p.png)
-
 # URTool
 URTool Extract and Repack android images from 5-8.1 (BIN,IMG,DAT-BR) Under Windows environment
+
+This Fork or URTool is for unpacking the OEM Folder of Chinese BMW Android 8.1.0 OTA Update files for further editing !
 
 
 # Usage
 ```
-Just put a ROM.zip into executable file directory.
-Then select zip and press option 1 for unpack android images, after make some modifications to system folder/files,
-then repack into its original android format using option 2.
-```
+Just put a PX6.zip Android OTA File into main file directory where the unpack_oem.bat is
+start unpack_oem.bat
+When successfully finished a "oem" folder is created with all the files.
 
 # Functions
 ```
+
+unpack_oem.bat function:
+
+Unpacks oem.new.bat.br file automatically.
+
+URtool.bat function:
+
 Unpack vendor.img/.dat.br, system.img/.dat.br, payload.bin automatically.
 Repack vendor.img/.dat.br, system.img/.dat.br,  exception for payload.bin but this tool deliver to you system.img ext4 for flashing purposes.
 URTool deliver to you original system permissions and symlinks
 ```
+
 
 # Credits
 ```
@@ -25,9 +32,6 @@ See credits.txt for binary authors
 
 # Tests
 ```
---> Redmi Note 3 Pro (kenzo), tested on stock Miui 10 with android 6.0.1, it booted up satisfactorily.
-    tested using official Lineage OS 14.1 under android 7.1 and it booted up satisfactorily.
-    tested using android 8.1 and it works too.
 *Not working on android 9 roms yet, make_ext4fs binary is not present in Pie repository*
 ```
 
