@@ -1,7 +1,7 @@
 # URTool
 URTool Extract and Repack android images from 5-8.1 (BIN,IMG,DAT-BR) Under Windows environment
 
-This Fork or URTool is for unpacking the OEM Folder of Chinese BMW Android 8.1.0 OTA Update files for further editing !
+This Fork of URTool is for unpacking the OEM Folder of Chinese BMW Android 8.1.0 OTA Update files for further editing !
 
 
 # Usage
