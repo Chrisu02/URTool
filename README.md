@@ -1,19 +1,19 @@
 # URTool
-URTool Extract and Repack android images from 5-8.1 (BIN,IMG,DAT-BR) Under Windows environment
+URTool Extract and Repack android images from 5-8.1 and 9 (BIN,IMG,DAT-BR) Under Windows environment
 
-This Fork of URTool is for unpacking the OEM Folder of Chinese BMW Android 8.1.0 OTA Update files for further editing !
+This Fork of URTool is for unpacking the OEM Folder of Chinese BMW Android 8.1.0/9.0 OTA Update files for further editing !
 
 
 # Usage
 ```
 For Android 8.1:
 
-Just put a PX6.zip Android OTA File into main file directory where the unpack_oem_android8.bat is
+Rename your Android 8.1.0 OTA file to PX6.zip , then put it into main file directory where the unpack_system_android8.bat is
 start unpack_oem_android8.bat
 When successfully finished a "oem" folder is created with all the files.
 
 For Android 9:
-Just put a Ksw-P-Userdebug_OS_v2.0.5-ota.zip Android OTA File into main file directory where the unpack_system_android9.bat is
+Rename your Android 9.0 OTA file to android9.zip , then put it into main file directory where the unpack_system_android9.bat is
 start unpack_system_android9.bat
 When successfully finished a "system_android9" folder is created with all the files.
 
