@@ -21,9 +21,9 @@ rd system_android9 /s /q >nul 2>&1
 if exist system_android9 goto error
 :run
 echo unpacking system_android9 files
-bins\7z.exe x Ksw-P-Userdebug_OS_v2.0.5-ota.zip system.new.dat.br
+bins\7z.exe x android9.zip system.new.dat.br
 if not exist system.new.dat.br goto :error
-bins\7z.exe x Ksw-P-Userdebug_OS_v2.0.5-ota.zip system.transfer.list
+bins\7z.exe x android9.zip system.transfer.list
 if not exist system.transfer.list goto :error
 echo converting .dat.br to .dat file
 bins\brotli.exe -v -d system.new.dat.br
@@ -44,7 +44,7 @@ Echo.
 echo. ***** Ooops  something went wrong *****
 echo.
 echo. Please check there are no system_android9 files and folders within this folder
-echo. Only the px6.zip file should be here
+echo. Only the android9.zip file should be here
 echo. please ensure there is enough free memory
 echo.
 pause
