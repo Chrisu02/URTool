@@ -6,13 +6,13 @@ This Fork of URTool is for unpacking the OEM Folder of Chinese BMW Android 8.1.0
 
 # Usage
 ```
-For Android 8.1:
+For Android 8.1 and Android 9.0 on PX6:
 
 Rename your Android 8.1.0 OTA file to PX6.zip , then put it into main file directory where the unpack_system_android8.bat is
 start unpack_oem_android8.bat
 When successfully finished a "oem" folder is created with all the files.
 
-For Android 9:
+For Android 9.0 on Snapdragon:
 Rename your Android 9.0 OTA file to android9.zip , then put it into main file directory where the unpack_system_android9.bat is
 start unpack_system_android9.bat
 When successfully finished a "system_android9" folder is created with all the files.
